@@ -11,10 +11,9 @@
 
 ## 🎉 Apa Itu WorkSphere?
 
-WorkSphere adalah aplikasi yang bantu mahasiswa menemukan **freelance**, **magang**, dan kerja **project-based** tanpa perlu:
-- buka 7 aplikasi job portal,
-- stalk story temen,
-- atau nunggu “lowongan khusus keluarga besar”.
+WorkSparé adalah aplikasi yang dirancang untuk membantu mahasiswa menemukan peluang **freelance**, **magang**, dan **project-based work** dengan lebih mudah, cepat, dan terarah.  
+Platform ini menghubungkan mahasiswa dengan perusahaan, UMKM, startup, hingga individu yang membutuhkan tenaga kerja terampil sesuai bidangnya.
+
 
 Dengan kata lain:  
 **Satu platform & peluang nyata**
@@ -32,19 +31,12 @@ Bukan lowongan serabutan yang “penting bisa kerja”.
 ### 📂 **Bantu bangun portofolio sejak awal**
 Karena dunia kerja nggak nunggu kamu siap.
 
-### ⚡ **Apply langsung tanpa ribet**
-Form jelas, data rapi, nggak ada drama “CV-nya tolong kirim ulang ya dek”.
+### ⚡ **WorkSphere hadir sebagai solusi atas tantangan yang sering dihadapi mahasiswa**
 
----
-
-## 🌱 Untuk Apa Semua Ini?
-
-Supaya mahasiswa:
-- nggak tersesat di dunia lowongan absurd,  
-- bisa mulai nambah pengalaman lebih cepat,  
-- dan masuk dunia profesional tanpa rasa minder.
-
-WorkSphere = **magang & freelance yang lebih manusiawi**.
+- Kesulitan menemukan lowongan yang relevan dengan jurusan.
+- Banyaknya informasi lowongan yang tersebar di berbagai platform dan tidak terkurasi.
+- Kurangnya transparansi terkait detail job desk, durasi, dan persyaratan.
+- Minimnya akses bagi mahasiswa untuk membangun portofolio nyata sejak dini.
 
 ---
 
