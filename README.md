@@ -39,7 +39,7 @@ Karena dunia kerja nggak nunggu kamu siap.
 
 <div align="center">
 
-### 🎉 *Temukan peluangmu. Bangun pengalamanmu.*
+### *Temukan peluangmu. Bangun pengalamanmu.*
 
 <img src="https://img.icons8.com/fluency/96/laptop.png" width="90"/>
 
