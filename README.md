@@ -11,7 +11,7 @@
 
 ## 🎉 Apa Itu WorkSphere?
 
-WorkSparé adalah aplikasi yang dirancang untuk membantu mahasiswa menemukan peluang **freelance**, **magang**, dan **project-based work** dengan lebih mudah, cepat, dan terarah.  Platform ini menghubungkan mahasiswa dengan perusahaan, UMKM, startup, hingga individu yang membutuhkan tenaga kerja terampil sesuai bidangnya.
+WorkSphere adalah aplikasi yang dirancang untuk membantu mahasiswa menemukan peluang **freelance**, **magang**, dan **project-based work** dengan lebih mudah, cepat, dan terarah.  Platform ini menghubungkan mahasiswa dengan perusahaan, UMKM, startup, hingga individu yang membutuhkan tenaga kerja terampil sesuai bidangnya.
 
 ---
 
