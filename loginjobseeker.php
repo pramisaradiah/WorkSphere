@@ -2,7 +2,7 @@
 require "fungsi.php";
 
 $error = ""; 
-if (isset($_POST['signin'])) {
+if (isset($_POST['signup'])) {
     $email = trim($_POST['email']);
     $password = $_POST['password'];
 
@@ -50,34 +50,76 @@ if (isset($_POST['signin'])) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sign In as Job Seeker</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
 
-<h2>Sign in as Job Seeker</h2>
+<div class="auth-container">
 
-<p>
-    Don't have an account?
-    <a href="register.php">Join here</a>
-</p>
+    <!-- LEFT SIDE -->
+    <div class="auth-left">
+        <h2>Join WorkSphere</h2>
+        <p>Find your dream freelance & internship opportunities.</p>
+        <!-- optional image -->
+        <!-- <img src="img/register.png" alt="Register"> -->
+    </div>
 
-<form method="POST">
-    <label>Email</label><br>
-    <input type="email" name="email"
-           value="<?= isset($email) ? htmlspecialchars($email) : '' ?>"
-           required><br><br>
+    <!-- RIGHT SIDE -->
+    <div class="auth-right">
+        <h2>Sign in as Jobseeker</h2>
+        <p>
+            Don't have an account?
+            <a href="role.php">Sign In</a>
+        </p>
 
-    <label>Password</label><br>
-    <input type="password" name="password" required><br><br>
+        <form method="POST">
 
-    <button type="submit" name="signin">Sign In</button>
-</form>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email"
+                       value="<?= isset($email) ? htmlspecialchars($email) : '' ?>"
+                       required>
+            </div>
 
-<!-- ERROR MUNCUL DI BAWAH FORM -->
-<?php if ($error): ?>
-    <p><?= $error ?></p>
-<?php endif; ?>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" name="password" required>
+            </div>
+
+            <?php if ($error): ?>
+                <p style="color:red; font-size:14px; margin-bottom:10px;">
+                    <?= $error ?>
+                </p>
+            <?php endif; ?>
+
+            <button type="submit" name="signup" class="btn-primary">
+                Sign Up
+            </button>
+        </form>
+
+        <div class="divider">
+            <span>OR</span>
+        </div>
+
+
+        <div class="social-login">
+            <button class="google-btn">
+                Sign in with Google
+            </button>
+
+            <button class="facebook-btn">
+                Continue with Facebook
+            </button>
+        </div>
+
+
+        <p class="terms">
+            By signing up, you agree to our Terms & Privacy Policy
+        </p>
+    </div>
+
+</div>
 
 </body>
 </html>

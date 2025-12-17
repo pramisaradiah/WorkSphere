@@ -1,0 +1,170 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f4f7fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* CONTAINER */
+.auth-container {
+    display: flex;
+    width: 900px;
+    max-width: 95%;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+/* LEFT SIDE */
+.auth-left {
+    width: 45%;
+    background: linear-gradient(135deg, #4facfe, #007bff);
+    color: #fff;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auth-left h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.auth-left img {
+    width: 100%;
+    max-width: 280px;
+    margin-top: 30px;
+}
+
+/* RIGHT SIDE */
+.auth-right {
+    width: 55%;
+    padding: 40px;
+}
+
+.auth-right h2 {
+    margin-bottom: 8px;
+    font-size: 26px;
+    color: #333;
+}
+
+.auth-right p {
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: #777;
+}
+
+.auth-right a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* FORM */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+}
+
+/* BUTTON */
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #e3f0ff;
+    color: #007bff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* DIVIDER */
+.divider {
+    margin: 25px 0;
+    text-align: center;
+    position: relative;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    height: 1px;
+    width: 40%;
+    background: #ddd;
+    position: absolute;
+    top: 50%;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.divider span {
+    font-size: 12px;
+    color: #888;
+    background: #fff;
+    padding: 0 10px;
+}
+
+/* SOCIAL */
+.social-login {
+    display: flex;
+    gap: 15px;
+}
+
+.social-login button {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.facebook-btn {
+    background: #1877f2;
+    color: #000000;
+    border: none;
+}
+
+/* FOOTER TEXT */
+.terms {
+    font-size: 12px;
+    color: #888;
+    margin-top: 15px;
+}
