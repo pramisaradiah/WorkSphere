@@ -7,6 +7,7 @@ require "fungsi.php";
 <head>
     <meta charset="UTF-8">
     <title>WorkSphere</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -34,32 +35,6 @@ require "fungsi.php";
 </section>
 
 <hr>
-
-<section>
-    <h2>Explore Jobs</h2>
-
-    <?php
-    $jobs = mysqli_query($conn, "
-        SELECT id_job, title, description
-        FROM jobs
-        ORDER BY created_at DESC
-        LIMIT 6
-    ");
-
-    while ($job = mysqli_fetch_assoc($jobs)) :
-    ?>
-
-    <div>
-        <h3><?= htmlspecialchars($job['title']) ?></h3>
-        <p><?= htmlspecialchars(substr($job['description'],0,100)) ?>...</p>
-
-        <a href="apply.php?id=<?= $job['id_job'] ?>">Apply</a>
-    </div>
-
-    <hr>
-
-    <?php endwhile; ?>
-</section>
 
 <section>
     <h2>Ready to Join?</h2>
