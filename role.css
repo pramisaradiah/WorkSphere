@@ -1,0 +1,159 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f4f7fb;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTAINER */
+.auth-container {
+    display: flex;
+    width: 950px;
+    max-width: 95%;
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+}
+
+/* LEFT */
+.auth-left {
+    width: 45%;
+    background: linear-gradient(135deg, #5cb2ff, #2d8cff);
+    color: #fff;
+    padding: 40px;
+    position: relative;
+}
+
+.auth-left h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.auth-left img {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    width: 80%;
+    max-width: 300px;
+}
+
+/* RIGHT */
+.auth-right {
+    width: 55%;
+    padding: 45px;
+}
+
+.auth-right h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.auth-right p {
+    font-size: 14px;
+    color: #666;
+}
+
+.auth-right a {
+    color: #2d8cff;
+    text-decoration: none;
+}
+
+/* ROLE BUTTONS */
+.role-group {
+    margin-top: 25px;
+}
+
+.role-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Outline */
+.role-btn.outline {
+    border: 1.5px solid #2d8cff;
+    color: #2d8cff;
+    margin-bottom: 15px;
+}
+
+/* Primary */
+.role-btn.primary {
+    background: #2d8cff;
+    color: #fff;
+}
+
+/* DIVIDER */
+.divider {
+    margin: 25px 0;
+    text-align: center;
+    position: relative;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    height: 1px;
+    width: 40%;
+    background: #ddd;
+    position: absolute;
+    top: 50%;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.divider span {
+    font-size: 12px;
+    color: #888;
+    background: #fff;
+    padding: 0 10px;
+}
+
+/* SOCIAL */
+.social-login {
+    display: flex;
+    gap: 15px;
+}
+
+.social-login button {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.facebook-btn {
+    background: #1877f2;
+    color: #000000;
+    border: none;
+}
+
+/* TERMS */
+.terms {
+    font-size: 12px;
+    color: #888;
+    margin-top: 20px;
+}

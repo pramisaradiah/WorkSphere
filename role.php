@@ -3,32 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Sign In</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="role.css">
 </head>
 <body>
 
-<h2>Sign in to your account</h2>
+<div class="auth-container">
 
-<p>
-    Don't have an account?
-    <a href="register.php">Join here</a>
-</p>
+    <!-- LEFT -->
+    <div class="auth-left">
+        <h2>Join us Now!</h2>
+        <!-- <img src="img/woman.png" alt="Join"> -->
+    </div>
 
-<hr>
+    <!-- RIGHT -->
+    <div class="auth-right">
+        <h2>Sign in to your account</h2>
+        <p>
+            Don't have an account?
+            <a href="register.php">Join here</a>
+        </p>
 
-<p>Please choose how you want to sign in:</p>
+        <div class="role-group">
+            <a href="loginjobseeker.php" class="role-btn outline">
+                Sign in as Job Seeker
+            </a>
 
-<p>
-    <a href="loginjobseeker.php">
-        Sign in as Job Seeker
-    </a>
-</p>
+            <a href="loginrecruiter.php" class="role-btn primary">
+                Sign in as Recruiter
+            </a>
+        </div>
 
-<p>
-    <a href="loginrecruiter.php">
-        Sign in as Recruiter
-    </a>
-</p>
+        <div class="divider">
+            <span>OR</span>
+        </div>
+
+        <div class="social-login">
+            <button class="google-btn">
+                Sign in with Google
+            </button>
+
+            <button class="facebook-btn">
+                Continue with Facebook
+            </button>
+        </div>
+
+        <p class="terms">
+            By joining, you agree to the WorkSphere
+            <a href="#">Terms of Service</a> and
+            <a href="#">Privacy Policy</a>.
+        </p>
+    </div>
+
+</div>
 
 </body>
 </html>
